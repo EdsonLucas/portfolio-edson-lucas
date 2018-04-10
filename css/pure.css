@@ -17,7 +17,8 @@ Table of Contents
 08. BACKGROUND COLOR SETTING
 09. BORDER COLOR SETTING
 10. BORDER TOP & BOTTOM STYLES
-11. SCROLLBAR
+11. TITLES
+12. SCROLLBAR
 ======================================================== */
 
 /*  --------------------------------------------------------
@@ -391,7 +392,7 @@ COLOR SETTING
 .color-green	  { color: #b2cc71 !important; }
 .color-yellow	  { color: #ffc501 !important; }
 
-.color-light    { color: #ffffff !important; }
+.color-light    { color: rgba(255, 255, 255, 0.8) !important; }
 .color-white    { color: #ffffff !important; }
 .color-gray 	  { color: #f5f7f9 !important; }
 .color-gray2 	  { color: #e0e0e0 !important; }
@@ -420,6 +421,7 @@ BACKGROUND COLOR SETTING
 .bg-cyan	  { background-color: #1abc9c !important; }
 .bg-green   { background-color: #b2cc71 !important; }
 .bg-yellow	{ background-color: #ffc501 !important; }
+.bg-brown   { background-color: #544d55 !important; }
 
 .bg-dark 	  { background-color: #5f6467 !important; }
 .bg-dark2 	{ background-color: #323a45 !important; }
@@ -611,6 +613,32 @@ BORDER TOP & BOTTOM STYLES
 .bb-double-1      { border-bottom: 3px double #e9eaec; }
 
 .no-border { border: 0 !important; }
+
+.radius1 { border-radius: 1px }
+.radius2 { border-radius: 2px }
+.radius3 { border-radius: 3px }
+.radius4 { border-radius: 4px }
+.radius5 { border-radius: 5px }
+.radius6 { border-radius: 6px }
+.radius7 { border-radius: 7px }
+.radius8 { border-radius: 8px }
+.radius9 { border-radius: 9px }
+.radius10 { border-radius: 10px }
+
+/*  --------------------------------------------------------
+TITLES
+-------------------------------------------------------- */
+h1, h2, h3, h4, h5, h6 {
+	color: #5b5b5b;
+	font-weight: 700;
+	letter-spacing: 0.125em;
+	line-height: 1.75em;
+	margin-bottom: 1em;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.home-content p { font-size: 1.25em; line-height: 1.65em; }
 
 /*  --------------------------------------------------------
 SCROLLBAR
