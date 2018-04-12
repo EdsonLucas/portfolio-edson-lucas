@@ -79,6 +79,7 @@ footer .social a{
 }
 
 input:-webkit-autofill {
+    box-shadow: 0 0 0px 1000px white inset;
     -webkit-box-shadow: 0 0 0px 1000px white inset;
 }
 
@@ -149,17 +150,6 @@ input:-webkit-autofill {
    font-weight: bold;
    letter-spacing: -3px;
    margin-bottom: 20px;
-}
-
-.home:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 1;
 }
 
 .social{
@@ -343,19 +333,6 @@ input:-webkit-autofill {
     width: 26px;
     height: 18px;
     display: inline-block;
-}
-
-.diag .home-content h1{
-    text-align: left;
-}
-
-.diag .home-content .social{
-    text-align: left;
-}
-
-.diag .home-content .home-down.bounce{
-    float: left;
-    padding: 50px 74px 0;
 }
 
 .social-icons a:hover {
