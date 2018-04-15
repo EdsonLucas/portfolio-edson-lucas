@@ -163,17 +163,17 @@
                                         <div class="modal-dialog" role="document">
                                         <div class="modal-content">
                                             <div class="modal-header">
-                                            <div class="col-md-12 link-btn hidden-sm hidden-xs">
+                                            <div class="col-md-12 link-btn col-sm-8 col-xs-8">
                                                 <h2 class="mb0">'.$alt[$i].'</h2>
                                             </div>
-                                            <div class="col-xs-6 link-btn hidden-lg hidden-md">
+                                            <div class="col-xs-4 link-btn hidden-lg hidden-md">
                                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                 <span aria-hidden="true">×</span>
                                                 </button>
                                             </div>
                                             </div>
                                             <div class="modal-body">
-                                            <img alt="'.$alt[$i].'" src="assets/images/servicos/big/work-'.$i.'.png">
+                                            <img class="img-responsive" src="assets/images/servicos/big/work-'.$i.'.png" alt="'.$alt[$i].'" />
                                             </div>
                                         </div>
                                         </div>
