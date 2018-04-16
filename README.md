@@ -44,4 +44,4 @@ Explanation about the used external CSS and JS files
 - Jquery - It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers.
 - Bootstrap - Build a responsive website and help with css/js features.
 - Main - Default Js to create the preloader, define the home page height and wow effect.
-- Wow - Reveal animations When you scroll.
+- Wow - Reveal animations when you scroll.
